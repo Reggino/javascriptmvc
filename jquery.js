@@ -1018,7 +1018,7 @@ jQuery.extend({
 
 		// Get the data from the object directly
 		if ( !isNode ) {
-			cache = elem;
+			thisCache = elem;
 			id = jQuery.expando;
 
 		// Compute a unique ID for the element
